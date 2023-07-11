@@ -85,6 +85,7 @@ ul{
     --color-third: #000000;
     --color-alfa: #ffffff85;
     --color-other: #ffffff;
+    --color-border: #eeeeee;
 
     /*  Кольори задніх фонів  */
     --color-background-primary: #E5E5E5;
@@ -92,6 +93,7 @@ ul{
     --color-background-third: #F5F4FA;
     --color-background-other: #ffffff;
     --color-background-accent: #2196F3;
+    --color-background-ground: #ececec;
 }
 
 /* Властивості на все тіло */
@@ -111,6 +113,27 @@ li {
 a {
     text-decoration: none;
 }
+
+.flex-box {
+    display: flex;
+}
+
+/* Container */
+.container{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 1200px;
+}
+
+.container-default-padding{
+    padding: 94px 0;
+}
+
+.container-details {
+    padding: 200px 0;
+}
+
+
 
 /* Шрифт лого */
 .logo {
